@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiQx - The Origin of Innovation</title>
+  <style>
+    /* Global Styles */
+    body {
+      background: linear-gradient(to bottom, navy, skyblue, orange);
+      font-family: 'Arial', sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: darkblue;
+      color: goldenrod;
+    }
+
+    h1 {
+      color: goldenrod;
+      font-size: 48px;
+      margin: 10px;
+    }
+
+    h2 {
+      color: white;
+      font-size: 28px;
+      margin: 20px 0;
+    }
+
+    /* Content Section */
+    .content {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+
+    /* Roadmap Section */
+    .roadmap {
+      background: rgba(0, 0, 128, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+    }
+
+    .roadmap h3 {
+      color: goldenrod;
+    }
+
+    /* Contract Address Section */
+    .contract {
+      background: rgba(255, 165, 0, 0.8);
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .contract button {
+      background-color: goldenrod;
+      color: darkblue;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .contract button:hover {
+      background-color: orange;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: skyblue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AiQx</h1>
+    <h2>The Origin Of Innovation 📊📈</h2>
+  </header>
+
+  <div class="content">
+    <p>Ai token represents the pinnacle of technological advancement, symbolizing innovation, excellence, and forward-thinking ideology. As a beacon of cutting-edge innovation, Ai token dignifies its holders with:</p>
+    <ul>
+      <li>Visionary thinking</li>
+      <li>Pioneering spirit</li>
+      <li>Commitment to progress</li>
+      <li>Passion for transformative technologies</li>
+    </ul>
+
+    <p>By holding Ai tokens, individuals demonstrate their dedication to shaping the future, fostering growth, and embracing the infinite possibilities of technological evolution.</p>
+
+    <div class="roadmap">
+      <h3>Roadmap</h3>
+      <p><strong>Our Goal to Achieve in 2025</strong></p>
+      <h4>Phase 1: 10,000+ Users</h4>
+      <ul>
+        <li>Token Generation Event (TGE)</li>
+        <li>Initial Launch on DEX (Solana Blockchain)</li>
+      </ul>
+
+      <h4>Phase 2: 20,000+ Token Holders</h4>
+      <ul>
+        <li>Listing on CoinMarketCap</li>
+        <li>Listing on Bitget, Mexc, and other Decentralized/Centralized Exchanges</li>
+      </ul>
+
+      <h4>Phase 3: 10,000,000+ Holders</h4>
+      <ul>
+        <li>OKX Listing</li>
+        <li>Binance Listing</li>
+        <li>Snapshot for Every Wallet Holding Our Tokens</li>
+        <li>Distribution of $100 Million Worth of Tokens to Supporters and Holders</li>
+      </ul>
+
+      <p>Total Supply: <strong>10 Million</strong> Tokens</p>
+      <p>Distribution: <strong>Near</strong></p>
+    </div>
+
+    <div class="contract">
+      <p>Contract Address: <span style="color: white; text-shadow: 2px 2px blue;">AiqxkvBcvugexLRRxFXBYxT5ekcrSb9noosq3VqBTRFD</span></p>
+      <button onclick="copyContract()">Copy Contract Address</button>
+    </div>
+
+    <div class="footer">
+      <p>Contact Email: <a href="mailto:roohemehtab@gmail.com">roohemehtab@gmail.com</a></p>
+    </div>
+  </div>
+
+  <script>
+    function copyContract() {
+      const contractAddress = 'AiqxkvBcvugexLRRxFXBYxT5ekcrSb9noosq3VqBTRFD';
+      navigator.clipboard.writeText(contractAddress).then(() => {
+        alert('Contract Address Copied to Clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
